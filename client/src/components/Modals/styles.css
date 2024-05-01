@@ -1,0 +1,35 @@
+.save-btn {
+    background-color: #2c3e50;
+    padding: 5px 40px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    color: #FFF;
+}
+
+.save-btn:hover {
+    background-color: #1a252f;
+}
+
+.salary-icon {
+    cursor: pointer;
+}
+
+.salary-modal {
+    display: flex;
+    align-items: center;
+}
+
+.salary-modal input {
+    padding: 10px 20px;
+}
+
+.salary-settings {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+
+.shift-modal {
+    margin-left: 1rem;
+    
+}

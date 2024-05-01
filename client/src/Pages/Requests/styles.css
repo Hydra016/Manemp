@@ -1,0 +1,120 @@
+.request-table {
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.table-cell {
+    text-align: center;
+    padding: 10px;
+    text-transform: capitalize;
+}
+
+.request-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+
+.table-img-container {
+    display: flex !important;
+    align-items: center;
+    width: 100%;
+}
+
+.retract-link {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.retract-link div {
+    display: flex;
+    width: 125px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 10px;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out;
+}
+
+.retract-link-color div {
+    background-color: #dc2626;
+    color: #450a0a;
+}
+
+.retract-link-color div:hover {
+    background-color: #ef4444;
+}
+
+.accept-offer div {
+    background-color: #65a30d;
+    color: #1a2e05;
+}
+
+.accept-offer div:hover {
+    background-color: #84cc16;
+}
+
+.singleRequest-shopType {
+    display: flex;
+    align-items: center;
+}
+
+.singleRequest-shopType span {
+    margin-left: 5px;
+}
+
+.singleRequest-btn-container {
+    display: flex;
+}
+
+.accept {
+    color: #22c55e;
+    border: 1px solid #22c55e;
+}
+
+.status {
+    border-radius: 30px !important;
+}
+
+.accepted {
+    background-color: #86efac !important;
+    color: #365314 !important;
+}
+
+.accepted-btn {
+    background-color: #ededed;
+    border-radius: 5px;
+}
+
+.pending {
+    background-color: #fde047 !important;
+    color: #ca8a04 !important;
+}
+
+.user-info div {
+    background-color: #e2e8f0 !important;
+}
+
+.requests-container {
+    height: 100vh;
+}
+
+.no-request {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.no-request-icon {
+    width: 100px;
+    height: 150px;
+}
+
+.no-request-container {
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
